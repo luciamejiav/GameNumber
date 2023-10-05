@@ -81,7 +81,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         }
 
         private fun newGame() {
-            numberazar = (1..10).random(random)
+            numberazar = (1..100).random(random)
             intentos = 0
             number = 50
             show()
